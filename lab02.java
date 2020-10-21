@@ -43,13 +43,7 @@ public class lab02 {
 			
 			if(aktywny == 1)
 			{
-			System.out.println(students.get(i) + " - " + lista.get(imiona) 
-			+ " - student aktywny." );
-			}
-			else
-			{
-				System.out.println(students.get(i) + " - " + lista.get(i) 
-				+ " - student nieaktywny." );
+			System.out.println(lista.get(imiona) +" (" + students.get(i) + ") " );
 			}
 			
 		}
